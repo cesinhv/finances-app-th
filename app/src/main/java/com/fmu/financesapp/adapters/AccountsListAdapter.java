@@ -17,7 +17,7 @@ import com.fmu.financesapp.model.Account;
 import java.util.ArrayList;
 
 public class AccountsListAdapter extends RecyclerView.Adapter<AccountsListAdapter.MyViewHolder> {
-    private final AccountDao dao = new AccountDao();
+    private final AccountDao dao = new AccountDao(this);
     private ArrayList<Account> accountList;
 
     public AccountsListAdapter(ArrayList<Account> accountList){

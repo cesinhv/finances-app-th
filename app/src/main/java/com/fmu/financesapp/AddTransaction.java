@@ -50,6 +50,7 @@ public class AddTransaction extends AppCompatActivity {
     TextInputEditText tvTransactionDate;
     DatePickerDialog.OnDateSetListener setListener;
 
+
     @Override
     protected void onResume() {
         super.onResume();

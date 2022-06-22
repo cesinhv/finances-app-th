@@ -20,7 +20,7 @@ import com.fmu.financesapp.model.Category;
 public class AddGoal extends AppCompatActivity {
 
     private ActivityAddGoalBinding binding;
-    private CategoryDao categoryDao = new CategoryDao();
+    private CategoryDao categoryDao = new CategoryDao(this);
     private Category category = new Category();
 
     private EditText goalText;

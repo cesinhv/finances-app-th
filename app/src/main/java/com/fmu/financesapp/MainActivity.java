@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity{
         fabOpen = AnimationUtils.loadAnimation(this, R.anim.fab_open);
         fabClose = AnimationUtils.loadAnimation(this, R.anim.fab_close);
 
+
         fabMain.setOnClickListener(view -> {
             if (!isVisible) {
                 showOverlayView();
